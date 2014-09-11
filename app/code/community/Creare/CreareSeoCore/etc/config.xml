@@ -189,6 +189,11 @@
                         <class>creareseocore/observer</class>
                         <method>productCheck</method>
                     </processcheck>
+                    <creare_notification>
+                        <type>singleton</type>
+                        <class>creareseocore/feed</class>
+                        <method>update</method>
+                    </creare_notification>
                 </observers>
             </controller_action_predispatch>
         </events>
